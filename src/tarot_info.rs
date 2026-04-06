@@ -41,10 +41,10 @@ impl TarotStore {
                 }
             }
         }
-        let base_url = env::var("GITHUB_URL").unwrap_or_default();
+        let base_image_url = env::var("GITHUB_URL").unwrap_or_default();
         Self {
             tarot_info,
-            base_url,
+            base_url: base_image_url,
         }
     }
 
