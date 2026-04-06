@@ -1,4 +1,0 @@
-.PHONY: build
-build: 
-	rustup target add aarch64-unknown-linux-gnu
-	cargo build --target=aarch64-unknown-linux-gnu --release
